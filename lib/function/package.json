@@ -1,0 +1,21 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.267.0",
+    "@aws-sdk/client-ssm": "^3.267.0",
+    "@aws-sdk/cloudfront-signer": "^3.267.0",
+    "@aws-sdk/types": "^3.267.0",
+    "@types/aws-lambda": "^8.10.110",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
