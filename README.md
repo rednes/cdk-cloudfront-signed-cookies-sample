@@ -1,14 +1,11 @@
 # cdk-cloudfront-signed-cookies-sample
 
-This is a blank project for CDK development with TypeScript.
+To learn more, see the following blog.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+[プライベートなCloudFrontと認証して閲覧許可するAPIをAWS CDKで構築してみる \| DevelopersIO](https://dev.classmethod.jp/articles/build-private-cloudfront-and-authentication-api-with-aws-cdk/)
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* `npm run cdk:deploy`      deploy this stack to your default AWS account/region
+* `npm run cdk:diff`        compare deployed stack with current state
+* `npm run cdk:destroy`     destroy this stack
